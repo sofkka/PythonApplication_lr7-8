@@ -5,9 +5,6 @@ import pdb
 # создание пустого словаря для хранения вопросов
 questions = {}
 
-# установка точки останова для отладки
-pdb.set_trace()
-
 # задаем переменную mail с адресом
 mail = 'ADRESS'
 
@@ -17,3 +14,5 @@ text = 'QUEST'
 # добавление в словарь questions пару ключ-значение (mail: text)
 questions[mail] = text
 
+# установка точки останова для отладки
+pdb.set_trace()
